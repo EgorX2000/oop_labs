@@ -15,6 +15,7 @@ class Seven {
     bool greater_than(const Seven& obj) const;
     bool less_than(const Seven& obj) const;
 
+    void copy(const Seven& obj);
     void print() const;
 
     ~Seven() noexcept;

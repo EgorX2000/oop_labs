@@ -90,10 +90,17 @@ TEST(subtraction_test_suite, different_ct_sizes) {
     EXPECT_TRUE(result.equals(expected));
 }
 
-TEST(copy_test_suite, regular_test) {
+TEST(copy_test_suite, copy_to_new) {
     Seven value{10};
     Seven copy{value};
     ASSERT_TRUE(copy.equals(value));
+}
+
+TEST(copy_test_suite, copy_to_existing) {
+    Seven left{10};
+    Seven right{1};
+    left.copy(right);
+    ASSERT_TRUE(left.equals(right));
 }
 
 int main(int argc, char **argv) {

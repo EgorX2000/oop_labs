@@ -121,6 +121,23 @@ bool Seven::less_than(const Seven& obj) const {
     return !greater_than(obj) && !equals(obj);
 }
 
+void Seven::copy(const Seven& obj) {
+    if (this == &obj) {
+        return;
+    }
+
+    len = obj.len;
+
+    delete[] array;
+    array = new unsigned char[len]{};
+
+    for (int i = 0; i < len; i++) {
+        array[i] = obj.array[i];
+    }
+
+    return;
+}
+
 void Seven::print() const {
     std::cout << "len: " << len << " array: ";
     for (int i = len - 1; i > -1; i--) {
@@ -128,6 +145,8 @@ void Seven::print() const {
     }
 
     std::cout << std::endl;
+
+    return;
 }
 
 Seven::~Seven() noexcept {
