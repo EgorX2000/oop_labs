@@ -1,11 +1,21 @@
 #pragma once
 
 #include <iostream>
+#include <sstream>
 #include <vector>
 
 class Figure {
+   private:
+    struct Vertex {
+        float x;
+        float y;
+    };
+
+    std::vector<Vertex> array;
+
    public:
-    std::string get_geometric_center() const { return; }
+    virtual Vertex get_geometric_center();
+
     std::string get_vertex_coordinates() const {
         std::string str = "[";
         for (int i = 0; i < array.size() - 1; i++) {
@@ -18,13 +28,25 @@ class Figure {
         return str;
     }
 
-   private:
-    struct Vertex {
-        float x;
-        float y;
-    };
+    void enter_figure_information(const std::string &str) {
+        std::istringstream str_ss(str);
 
-    std::vector<Vertex> array;
+        float num;
+        size_t i = 0;
+        while (str_ss >> num) {
+            Vertex ver{0, 0};
+            if (i % 2 == 0) {
+                ver.x = num;
+            } else {
+                ver.y = num;
+            }
+
+            array.push_back(ver);
+            i++;
+        }
+    }
+
+    virtual double area() = 0;
 };
 
 std::ostream &operator<<(std::ostream &os, const Figure &fig) {
