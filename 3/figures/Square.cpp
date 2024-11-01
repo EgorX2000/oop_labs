@@ -1,6 +1,6 @@
 #include "Figures.h"
 
-std::vector<Vertex> Square::MakeVertices(const Vertex& v, float sideLen) {
+std::vector<Vertex> Square::MakeVertices(const Vertex& v, double sideLen) {
     std::vector<Vertex> verts;
 
     verts.push_back(v);

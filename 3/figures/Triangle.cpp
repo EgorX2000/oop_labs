@@ -1,19 +1,19 @@
 #include "Figures.h"
 
-std::vector<Vertex> Triangle::MakeVertices(const Vertex& v, float sideLen) {
+std::vector<Vertex> Triangle::MakeVertices(const Vertex& v, double sideLen) {
     std::vector<Vertex> verts;
 
     verts.push_back(v);
     verts.push_back(
         {v.x + sideLen * cos(M_PI / 3), v.y + sideLen * sin(M_PI / 3)});
-    verts.push_back({v.x, v.y + sideLen});
+    verts.push_back({v.x + sideLen, v.y});
 
     return verts;
 }
 
 Vertex Triangle::GetCenter() const {
-    float centerX = (vertices[0].x + vertices[1].x + vertices[2].x) / 3;
-    float centerY = (vertices[0].y + vertices[1].y + vertices[2].y) / 3;
+    double centerX = (vertices[0].x + vertices[1].x + vertices[2].x) / 3;
+    double centerY = (vertices[0].y + vertices[1].y + vertices[2].y) / 3;
 
     return Vertex{centerX, centerY};
 }

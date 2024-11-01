@@ -1,6 +1,6 @@
 #include "Figures.h"
 
-std::vector<Vertex> Octagon::MakeVertices(const Vertex& v, float sideLen) {
+std::vector<Vertex> Octagon::MakeVertices(const Vertex& v, double sideLen) {
     std::vector<Vertex> verts;
 
     verts.push_back(v);
@@ -24,11 +24,11 @@ std::vector<Vertex> Octagon::MakeVertices(const Vertex& v, float sideLen) {
 }
 
 Vertex Octagon::GetCenter() const {
-    float centerX =
+    double centerX =
         (vertices[0].x + vertices[1].x + vertices[2].x + vertices[3].x +
          vertices[4].x + vertices[5].x + vertices[6].x + vertices[7].x) /
         8;
-    float centerY =
+    double centerY =
         (vertices[0].y + vertices[1].y + vertices[2].y + vertices[3].y +
          vertices[4].y + vertices[5].y + vertices[6].y + vertices[7].y) /
         8;

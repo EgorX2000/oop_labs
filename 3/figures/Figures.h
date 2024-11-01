@@ -8,7 +8,7 @@
 
 struct Vertex {
     Vertex() = default;
-    Vertex(float x_in, float y_in) : x(x_in), y(y_in) {}
+    Vertex(double x_in, double y_in) : x(x_in), y(y_in) {}
     Vertex operator+(const Vertex& vert) const {
         return Vertex(x + vert.x, y + vert.y);
     }
@@ -32,7 +32,7 @@ struct Vertex {
     }
     bool operator!=(const Vertex& vert) const { return !(*this == vert); }
     friend std::ostream& operator<<(std::ostream& os, const Vertex& vertex) {
-        os << "(" << vertex.x << " ," << vertex.y << ")";
+        os << "(" << vertex.x << ", " << vertex.y << ")";
         return os;
     }
     friend std::istream& operator>>(std::istream& is, Vertex& vertex) {
@@ -41,8 +41,8 @@ struct Vertex {
     }
 
    public:
-    float x = 0;
-    float y = 0;
+    double x = 0;
+    double y = 0;
 };
 
 class Figure {
@@ -71,7 +71,7 @@ class Polygon : public Figure {
 
 class Octagon : public Polygon {
    public:
-    Octagon(const Vertex& pos, float sideLen)
+    Octagon(const Vertex& pos, double sideLen)
         : pos(pos),
           sideLen(sideLen),
           Polygon("Octagon", MakeVertices(pos, sideLen)) {}
@@ -82,16 +82,16 @@ class Octagon : public Polygon {
     friend std::istream& operator>>(std::istream& is, Octagon& Figure);
 
    private:
-    static std::vector<Vertex> MakeVertices(const Vertex& v, float sideLen);
+    static std::vector<Vertex> MakeVertices(const Vertex& v, double sideLen);
 
    private:
     Vertex pos;
-    float sideLen;
+    double sideLen;
 };
 
 class Triangle : public Polygon {
    public:
-    Triangle(const Vertex& pos, float sideLen)
+    Triangle(const Vertex& pos, double sideLen)
         : pos(pos),
           sideLen(sideLen),
           Polygon("Triangle", MakeVertices(pos, sideLen)) {}
@@ -102,16 +102,16 @@ class Triangle : public Polygon {
     friend std::istream& operator>>(std::istream& is, Triangle& Figure);
 
    private:
-    static std::vector<Vertex> MakeVertices(const Vertex& v, float sideLen);
+    static std::vector<Vertex> MakeVertices(const Vertex& v, double sideLen);
 
    private:
     Vertex pos;
-    float sideLen;
+    double sideLen;
 };
 
 class Square : public Polygon {
    public:
-    Square(const Vertex& pos, float sideLen)
+    Square(const Vertex& pos, double sideLen)
         : pos(pos),
           sideLen(sideLen),
           Polygon("Square", MakeVertices(pos, sideLen)) {}
@@ -122,9 +122,9 @@ class Square : public Polygon {
     friend std::istream& operator>>(std::istream& is, Square& Figure);
 
    private:
-    static std::vector<Vertex> MakeVertices(const Vertex& v, float sideLen);
+    static std::vector<Vertex> MakeVertices(const Vertex& v, double sideLen);
 
    private:
     Vertex pos;
-    float sideLen;
+    double sideLen;
 };
