@@ -1,0 +1,2 @@
+Squirrel Squirrel1 10 20
+Werewolf Werewolf1 15 25
