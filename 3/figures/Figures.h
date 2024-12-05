@@ -9,24 +9,6 @@
 struct Vertex {
     Vertex() = default;
     Vertex(double x_in, double y_in) : x(x_in), y(y_in) {}
-    Vertex operator+(const Vertex& vert) const {
-        return Vertex(x + vert.x, y + vert.y);
-    }
-    Vertex operator-(const Vertex& vert) const {
-        return Vertex(x - vert.x, y - vert.y);
-    }
-    Vertex& operator+=(const Vertex& vert) {
-        x += vert.x;
-        y += vert.y;
-
-        return *this;
-    }
-    Vertex& operator-=(const Vertex& vert) {
-        x -= vert.x;
-        y -= vert.y;
-
-        return *this;
-    }
     bool operator==(const Vertex& vert) const {
         return x == vert.x && y == vert.y;
     }

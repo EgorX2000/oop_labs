@@ -16,4 +16,5 @@ class NpcManager {
     void saveToFile(const std::string& filename) const;
     void loadFromFile(const std::string& filename);
     void startBattle(double range, Visitor& visitor);
+    const std::vector<std::shared_ptr<NPC>>& getNPCs() const;
 };

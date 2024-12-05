@@ -35,3 +35,7 @@ void NpcManager::loadFromFile(const std::string& filename) {
 void NpcManager::startBattle(double range, Visitor& visitor) {
     visitor.fight(npcs);
 }
+
+const std::vector<std::shared_ptr<NPC>>& NpcManager::getNPCs() const {
+    return npcs;
+}

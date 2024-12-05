@@ -1,4 +1,4 @@
-# Install script for directory: D:/Documents/C++/oop_labs/6/googletest
+# Install script for directory: C:/Users/aSUS/Documents/C++/oop_labs/6/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Documents/C++/oop_labs/6/build/googletest/googlemock/cmake_install.cmake")
+  include("C:/Users/aSUS/Documents/C++/oop_labs/6/build/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

@@ -46,8 +46,7 @@ TEST(FileOperationsTest, SaveAndLoadNPCs) {
     NpcManager nm2;
 
     nm2.loadFromFile(filename);
-    auto loaded_npcs =
-        *reinterpret_cast<std::vector<std::shared_ptr<NPC>>*>(&nm2);
+    auto loaded_npcs = nm2.getNPCs();
     ASSERT_EQ(loaded_npcs.size(), 2);
     EXPECT_EQ(loaded_npcs[0]->getType(), "Squirrel");
     EXPECT_EQ(loaded_npcs[0]->getName(), "Squirrel1");

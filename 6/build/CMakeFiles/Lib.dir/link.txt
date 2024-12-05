@@ -1,0 +1,2 @@
+C:\Compilers\mingw64\bin\ar.exe qc libLib.a CMakeFiles/Lib.dir/main.cpp.obj CMakeFiles/Lib.dir/src/NPC/NPC.cpp.obj CMakeFiles/Lib.dir/src/Observer/Observer.cpp.obj CMakeFiles/Lib.dir/src/NpcManager/NpcManager.cpp.obj CMakeFiles/Lib.dir/src/Factory/Factory.cpp.obj CMakeFiles/Lib.dir/src/Visitor/Visitor.cpp.obj
+C:\Compilers\mingw64\bin\ranlib.exe libLib.a
