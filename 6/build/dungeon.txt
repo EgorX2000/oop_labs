@@ -1,2 +1,2 @@
-Белка Squirrel1 10 20
-Друид Druid1 100 120
+Squirrel Squirrel1 10 20
+Druid Druid1 100 120

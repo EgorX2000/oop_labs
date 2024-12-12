@@ -1,74 +1,74 @@
 [
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/Lib.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\main.cpp.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\main.cpp",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/main.cpp",
-  "output": "CMakeFiles/Lib.dir/main.cpp.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/src/Npc -ID:/Documents/C++/oop_labs/6/src/Observer -ID:/Documents/C++/oop_labs/6/src/NpcManager -ID:/Documents/C++/oop_labs/6/src/Factory -ID:/Documents/C++/oop_labs/6/src/Visitor -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\main.cpp.obj -c D:\\Documents\\C++\\oop_labs\\6\\main.cpp",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\main.cpp",
+  "output": "CMakeFiles\\Lib.dir\\main.cpp.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/Lib.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\NPC\\NPC.cpp.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\src\\NPC\\NPC.cpp",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/src/NPC/NPC.cpp",
-  "output": "CMakeFiles/Lib.dir/src/NPC/NPC.cpp.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/src/Npc -ID:/Documents/C++/oop_labs/6/src/Observer -ID:/Documents/C++/oop_labs/6/src/NpcManager -ID:/Documents/C++/oop_labs/6/src/Factory -ID:/Documents/C++/oop_labs/6/src/Visitor -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\NPC\\NPC.cpp.obj -c D:\\Documents\\C++\\oop_labs\\6\\src\\NPC\\NPC.cpp",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\src\\NPC\\NPC.cpp",
+  "output": "CMakeFiles\\Lib.dir\\src\\NPC\\NPC.cpp.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/Lib.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\Observer\\Observer.cpp.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\src\\Observer\\Observer.cpp",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/src/Observer/Observer.cpp",
-  "output": "CMakeFiles/Lib.dir/src/Observer/Observer.cpp.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/src/Npc -ID:/Documents/C++/oop_labs/6/src/Observer -ID:/Documents/C++/oop_labs/6/src/NpcManager -ID:/Documents/C++/oop_labs/6/src/Factory -ID:/Documents/C++/oop_labs/6/src/Visitor -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\Observer\\Observer.cpp.obj -c D:\\Documents\\C++\\oop_labs\\6\\src\\Observer\\Observer.cpp",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\src\\Observer\\Observer.cpp",
+  "output": "CMakeFiles\\Lib.dir\\src\\Observer\\Observer.cpp.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/Lib.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\NpcManager\\NpcManager.cpp.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\src\\NpcManager\\NpcManager.cpp",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/src/NpcManager/NpcManager.cpp",
-  "output": "CMakeFiles/Lib.dir/src/NpcManager/NpcManager.cpp.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/src/Npc -ID:/Documents/C++/oop_labs/6/src/Observer -ID:/Documents/C++/oop_labs/6/src/NpcManager -ID:/Documents/C++/oop_labs/6/src/Factory -ID:/Documents/C++/oop_labs/6/src/Visitor -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\NpcManager\\NpcManager.cpp.obj -c D:\\Documents\\C++\\oop_labs\\6\\src\\NpcManager\\NpcManager.cpp",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\src\\NpcManager\\NpcManager.cpp",
+  "output": "CMakeFiles\\Lib.dir\\src\\NpcManager\\NpcManager.cpp.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/Lib.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\Factory\\Factory.cpp.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\src\\Factory\\Factory.cpp",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/src/Factory/Factory.cpp",
-  "output": "CMakeFiles/Lib.dir/src/Factory/Factory.cpp.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/src/Npc -ID:/Documents/C++/oop_labs/6/src/Observer -ID:/Documents/C++/oop_labs/6/src/NpcManager -ID:/Documents/C++/oop_labs/6/src/Factory -ID:/Documents/C++/oop_labs/6/src/Visitor -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\Factory\\Factory.cpp.obj -c D:\\Documents\\C++\\oop_labs\\6\\src\\Factory\\Factory.cpp",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\src\\Factory\\Factory.cpp",
+  "output": "CMakeFiles\\Lib.dir\\src\\Factory\\Factory.cpp.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/Lib.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\Visitor\\Visitor.cpp.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\src\\Visitor\\Visitor.cpp",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/src/Visitor/Visitor.cpp",
-  "output": "CMakeFiles/Lib.dir/src/Visitor/Visitor.cpp.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/src/Npc -ID:/Documents/C++/oop_labs/6/src/Observer -ID:/Documents/C++/oop_labs/6/src/NpcManager -ID:/Documents/C++/oop_labs/6/src/Factory -ID:/Documents/C++/oop_labs/6/src/Visitor -g -std=gnu++20 -o CMakeFiles\\Lib.dir\\src\\Visitor\\Visitor.cpp.obj -c D:\\Documents\\C++\\oop_labs\\6\\src\\Visitor\\Visitor.cpp",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\src\\Visitor\\Visitor.cpp",
+  "output": "CMakeFiles\\Lib.dir\\src\\Visitor\\Visitor.cpp.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\main.cpp",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/main.cpp",
-  "output": "CMakeFiles/main.dir/main.cpp.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/src/Npc -ID:/Documents/C++/oop_labs/6/src/Observer -ID:/Documents/C++/oop_labs/6/src/NpcManager -ID:/Documents/C++/oop_labs/6/src/Factory -ID:/Documents/C++/oop_labs/6/src/Visitor -g -std=gnu++20 -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\Documents\\C++\\oop_labs\\6\\main.cpp",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\main.cpp",
+  "output": "CMakeFiles\\main.dir\\main.cpp.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\tests.dir\\tests.cc.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\tests.cc",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/tests.cc",
-  "output": "CMakeFiles/tests.dir/tests.cc.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/src/Npc -ID:/Documents/C++/oop_labs/6/src/Observer -ID:/Documents/C++/oop_labs/6/src/NpcManager -ID:/Documents/C++/oop_labs/6/src/Factory -ID:/Documents/C++/oop_labs/6/src/Visitor -isystem D:/Documents/C++/oop_labs/6/googletest/googletest/include -isystem D:/Documents/C++/oop_labs/6/googletest/googletest -g -std=gnu++20 -o CMakeFiles\\tests.dir\\tests.cc.obj -c D:\\Documents\\C++\\oop_labs\\6\\tests.cc",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\tests.cc",
+  "output": "CMakeFiles\\tests.dir\\tests.cc.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build/googletest/googlemock",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\googletest\\googlemock\\src\\gmock-all.cc",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/googletest/googlemock/src/gmock-all.cc",
-  "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/googletest/googlemock/include -ID:/Documents/C++/oop_labs/6/googletest/googlemock -isystem D:/Documents/C++/oop_labs/6/googletest/googletest/include -isystem D:/Documents/C++/oop_labs/6/googletest/googletest -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\Documents\\C++\\oop_labs\\6\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\googletest\\googlemock\\src\\gmock-all.cc",
+  "output": "googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build/googletest/googlemock",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\googletest\\googlemock\\src\\gmock_main.cc",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/googletest/googlemock/src/gmock_main.cc",
-  "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -isystem D:/Documents/C++/oop_labs/6/googletest/googlemock/include -isystem D:/Documents/C++/oop_labs/6/googletest/googlemock -isystem D:/Documents/C++/oop_labs/6/googletest/googletest/include -isystem D:/Documents/C++/oop_labs/6/googletest/googletest -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\Documents\\C++\\oop_labs\\6\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\googletest\\googlemock\\src\\gmock_main.cc",
+  "output": "googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build/googletest/googletest",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\googletest\\googletest\\src\\gtest-all.cc",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/googletest/googletest/src/gtest-all.cc",
-  "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -ID:/Documents/C++/oop_labs/6/googletest/googletest/include -ID:/Documents/C++/oop_labs/6/googletest/googletest -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\Documents\\C++\\oop_labs\\6\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\googletest\\googletest\\src\\gtest-all.cc",
+  "output": "googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
 },
 {
-  "directory": "C:/Users/aSUS/Documents/C++/oop_labs/6/build/googletest/googletest",
-  "command": "C:\\Compilers\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\aSUS\\Documents\\C++\\oop_labs\\6\\googletest\\googletest\\src\\gtest_main.cc",
-  "file": "C:/Users/aSUS/Documents/C++/oop_labs/6/googletest/googletest/src/gtest_main.cc",
-  "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+  "directory": "D:/Documents/C++/oop_labs/6/build",
+  "command": "C:\\Compilers\\mingw64\\bin\\c++.exe -isystem D:/Documents/C++/oop_labs/6/googletest/googletest/include -isystem D:/Documents/C++/oop_labs/6/googletest/googletest -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\Documents\\C++\\oop_labs\\6\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "D:\\Documents\\C++\\oop_labs\\6\\googletest\\googletest\\src\\gtest_main.cc",
+  "output": "googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
 }
 ]
