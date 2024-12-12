@@ -24,7 +24,7 @@ class UnidirectionalList {
 
     ~UnidirectionalList() { clear(); }
 
-    void push_front(const T& value) {
+    void push(const T& value) {
         Node* newNode = allocator_.allocate(1);
         allocator_.construct(newNode, value, head_);
         head_ = newNode;

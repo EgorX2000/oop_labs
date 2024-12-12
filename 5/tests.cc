@@ -36,9 +36,9 @@ TEST(FixedMemoryResourceTest, AllocationFailure) {
 TEST(UnidirectionalListTest, PushBack) {
     UnidirectionalList<int> list;
 
-    list.push_front(1);
-    list.push_front(2);
-    list.push_front(3);
+    list.push(1);
+    list.push(2);
+    list.push(3);
 
     EXPECT_EQ(list.size(), 3);
     EXPECT_EQ(list.at(0), 1);
@@ -49,9 +49,9 @@ TEST(UnidirectionalListTest, PushBack) {
 TEST(UnidirectionalListTest, PushFront) {
     UnidirectionalList<int> list;
 
-    list.push_front(1);
-    list.push_front(2);
-    list.push_front(3);
+    list.push(1);
+    list.push(2);
+    list.push(3);
 
     EXPECT_EQ(list.size(), 3);
     EXPECT_EQ(list.at(0), 3);
@@ -62,9 +62,9 @@ TEST(UnidirectionalListTest, PushFront) {
 TEST(UnidirectionalListTest, PopBack) {
     UnidirectionalList<int> list;
 
-    list.push_front(1);
-    list.push_front(2);
-    list.push_front(3);
+    list.push(1);
+    list.push(2);
+    list.push(3);
 
     list.pop_back();
     EXPECT_EQ(list.size(), 2);
@@ -82,9 +82,9 @@ TEST(UnidirectionalListTest, PopBack) {
 TEST(UnidirectionalListTest, PopFront) {
     UnidirectionalList<int> list;
 
-    list.push_front(1);
-    list.push_front(2);
-    list.push_front(3);
+    list.push(1);
+    list.push(2);
+    list.push(3);
 
     list.pop_front();
     EXPECT_EQ(list.size(), 2);
@@ -102,9 +102,9 @@ TEST(UnidirectionalListTest, PopFront) {
 TEST(UnidirectionalListTest, At) {
     UnidirectionalList<int> list;
 
-    list.push_front(10);
-    list.push_front(20);
-    list.push_front(30);
+    list.push(10);
+    list.push(20);
+    list.push(30);
 
     EXPECT_EQ(list.at(0), 10);
     EXPECT_EQ(list.at(1), 20);
@@ -116,8 +116,8 @@ TEST(UnidirectionalListTest, At) {
 TEST(UnidirectionalListTest, Insert) {
     UnidirectionalList<int> list;
 
-    list.push_front(1);
-    list.push_front(3);
+    list.push(1);
+    list.push(3);
     list.insert(1, 2);  // Вставляем 2 между 1 и 3
 
     EXPECT_EQ(list.size(), 3);
@@ -135,9 +135,9 @@ TEST(UnidirectionalListTest, Insert) {
 TEST(UnidirectionalListTest, Erase) {
     UnidirectionalList<int> list;
 
-    list.push_front(1);
-    list.push_front(2);
-    list.push_front(3);
+    list.push(1);
+    list.push(2);
+    list.push(3);
 
     list.erase(1);  // Удаляем элемент с индексом 1
     EXPECT_EQ(list.size(), 2);
@@ -155,8 +155,8 @@ TEST(UnidirectionalListTest, Erase) {
 TEST(UnidirectionalListTest, ComplexTypeHandling) {
     UnidirectionalList<ComplexType> list;
 
-    list.push_front(ComplexType{1, "First", 100.5});
-    list.push_front(ComplexType{2, "Second", 200.75});
+    list.push(ComplexType{1, "First", 100.5});
+    list.push(ComplexType{2, "Second", 200.75});
 
     EXPECT_EQ(list.size(), 2);
 
@@ -176,9 +176,9 @@ TEST(UnidirectionalListTest, GeneralUsage) {
     UnidirectionalList<int> list = UnidirectionalList<int>(
         std::pmr::polymorphic_allocator<int>(&resource));
 
-    list.push_front(1);
-    list.push_front(2);
-    list.push_front(3);
+    list.push(1);
+    list.push(2);
+    list.push(3);
 
     EXPECT_EQ(list.size(), 3);
     EXPECT_EQ(list.at(0), 1);

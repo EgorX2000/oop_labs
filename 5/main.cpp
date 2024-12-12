@@ -23,9 +23,9 @@ int main() {
     std::pmr::memory_resource* resource = &memoryResource;
 
     UnidirectionalList<int> intList(resource);
-    intList.push_front(10);
-    intList.push_front(20);
-    intList.push_front(30);
+    intList.push(10);
+    intList.push(20);
+    intList.push(30);
 
     std::cout << "Integer List: ";
     for (const auto& value : intList) {
@@ -34,9 +34,9 @@ int main() {
     std::cout << "\n";
 
     UnidirectionalList<ComplexType> complexList(resource);
-    complexList.push_front({1, "Alice"});
-    complexList.push_front({2, "Bob"});
-    complexList.push_front({3, "Charlie"});
+    complexList.push({1, "Alice"});
+    complexList.push({2, "Bob"});
+    complexList.push({3, "Charlie"});
 
     std::cout << "ComplexType List: \n";
     for (const auto& value : complexList) {
